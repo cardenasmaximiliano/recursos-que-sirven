@@ -1,0 +1,13 @@
+﻿Sesión 'recordatorios': 730f9f3a-c7cf-444e-91bc-17064a1c3a40
+
+  CÓDIGO DE VINCULACIÓN:  5JEXN36Q
+
+En el celular de +5492235554717:
+  WhatsApp > Ajustes > Dispositivos vinculados > Vincular un dispositivo > 'Vincular con el número de teléfono'
+  y escribí el código. Vence en pocos minutos: si no alcanzás, volvé a correr este script.
+Esperando la vinculación...
+
+VINCULADO. La sesión está lista.
+
+Para activar los recordatorios, en apiPHP\config.local.php:
+  'whatsapp' => [ 'activo' => true, 'api_key' => '<la API key de OpenWA>', 'session_id' => '730f9f3a-c7cf-444e-91bc-17064a1c3a40' ],
